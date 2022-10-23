@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +16,6 @@
   margin-top: 0.5rem;
   margin-left: 0.1rem;
   text-align: center;
-  font-family: "NeonoirW01-Slim";
   font-weight: bold;
   color: #e124ae;
   font-size: 1.1rem;
@@ -31,8 +32,8 @@
 /* BODY PAGE */
 
 body {
+  font-family: "Caveat", cursive;
   background-color: #222121;
-  font-family: "NeonoirW01-Slim";
   text-align: center;
   color: #ffff;
   line-height: 1.4;
@@ -127,13 +128,7 @@ body {
   transition: all 0.4s;
 }
 
-.first__section:hover {
-  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
-    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
-    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-  transform: scale(1.1);
-}
-
+.first__section:hover,
 .third__section:hover {
   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
     rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
@@ -180,7 +175,6 @@ body {
 /* ABOUT US */
 
 .about_us {
-  font-family: "NeonoirW01-Slim";
   padding-block: 3rem;
   padding-inline: 1.2rem;
   margin-bottom: 15rem;
@@ -219,7 +213,6 @@ body {
 /* CONTACT */
 
 .contact {
-  font-family: "NeonoirW01-Slim";
   color: #ffff;
   padding-block: 3rem;
   padding-inline: 1.2rem;
@@ -355,277 +348,7 @@ body {
 
 /*MOBILE FIRST*/
 
-@media screen and (max-width: 1330px) {
-  .container {
-    width: 90%;
-  }
-
-  .title {
-    font-size: 3rem;
-  }
-
-  .nav_list {
-    font-size: 0.8rem;
-    margin: 0;
-  }
-
-  .nav__link {
-    margin: 0.5rem;
-  }
-
-  .shopping_cart a i {
-    margin-left: 0.5rem;
-  }
-
-  .main_section {
-    font-size: 0.8rem;
-    padding-block: 3rem;
-    padding-inline: 0.5rem;
-  }
-
-  .first__section,
-  .third__section {
-    flex-direction: column;
-  }
-
-  .second__section {
-    flex-direction: column-reverse;
-  }
-
-  .photo__one,
-  .photo__two,
-  .photo__three {
-    width: 25vh;
-    padding-bottom: 1rem;
-  }
-
-  .phrase__one,
-  .phrase__two,
-  .phrase__three {
-    padding: 0;
-  }
-
-  .footer__copyright {
-    font-size: 1rem;
-  }
-
-  .footer__icons {
-    margin-bottom: 1rem;
-  }
-
-  .footer__icons a .fa-instagram {
-    color: #e124ae;
-  }
-
-  .footer__icons a .fa-whatsapp {
-    color: green;
-  }
-
-  .footer_page a i {
-    font-size: 1.3rem;
-  }
-
-  .product__cuencos {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-areas:
-      "img1"
-      "caja1"
-      "img2"
-      "caja2"
-      "img3"
-      "caja3"
-      "img4"
-      "caja4"
-      "img5"
-      "caja5";
-    gap: 1rem;
-    justify-content: center;
-    font-size: 0.8rem;
-  }
-
-  .product__cuencos img {
-    width: 30vh;
-    margin-bottom: 0.2rem;
-  }
-
-  .product__cuencos .button {
-    margin-bottom: 5rem;
-  }
-
-  .about_us {
-    font-size: 0.8rem;
-  }
-
-  .about__us--pic {
-    width: 30vh;
-  }
-
-  .about__us--first__section,
-  .about__us--second__section,
-  .about__us--third__section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .about__us--phrase {
-    margin-top: 1rem;
-    padding-left: 0;
-  }
-
-  .faq__section__one,
-  .faq__section__two,
-  .faq__section__three {
-    font-size: 1.7rem;
-  }
-
-  .explanation__one,
-  .explanation__two,
-  .explanation__three {
-    font-size: 0.8rem;
-    padding-bottom: 8rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container {
-    width: 90%;
-  }
-
-  .title {
-    font-size: 3rem;
-  }
-
-  .nav_list {
-    font-size: 0.8rem;
-    margin: 0;
-  }
-
-  .nav__link {
-    margin: 0.5rem;
-  }
-
-  .shopping_cart a i {
-    margin-left: 0.5rem;
-  }
-
-  .main_section {
-    font-size: 0.8rem;
-    padding-block: 3rem;
-    padding-inline: 0.5rem;
-  }
-
-  .first__section,
-  .third__section {
-    flex-direction: column;
-  }
-
-  .second__section {
-    flex-direction: column-reverse;
-  }
-
-  .photo__one,
-  .photo__two,
-  .photo__three {
-    width: 25vh;
-    padding-bottom: 1rem;
-  }
-
-  .phrase__one,
-  .phrase__two,
-  .phrase__three {
-    padding: 0;
-  }
-
-  .footer__copyright {
-    font-size: 1rem;
-  }
-
-  .footer__icons {
-    margin-bottom: 1rem;
-  }
-
-  .footer__icons a .fa-instagram {
-    color: #e124ae;
-  }
-
-  .footer__icons a .fa-whatsapp {
-    color: green;
-  }
-
-  .footer_page a i {
-    font-size: 1.3rem;
-  }
-
-  .product__cuencos {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-areas:
-      "img1"
-      "caja1"
-      "img2"
-      "caja2"
-      "img3"
-      "caja3"
-      "img4"
-      "caja4"
-      "img5"
-      "caja5";
-    gap: 1rem;
-    justify-content: center;
-    font-size: 0.8rem;
-  }
-
-  .product__cuencos img {
-    width: 30vh;
-    margin-bottom: 0.2rem;
-  }
-
-  .product__cuencos .button {
-    margin-bottom: 5rem;
-  }
-
-  .about_us {
-    font-size: 0.8rem;
-  }
-
-  .about__us--pic {
-    width: 30vh;
-  }
-
-  .about__us--first__section,
-  .about__us--second__section,
-  .about__us--third__section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .about__us--phrase {
-    margin-top: 1rem;
-    padding-left: 0;
-  }
-
-  .faq__section__one,
-  .faq__section__two,
-  .faq__section__three {
-    font-size: 1.7rem;
-  }
-
-  .explanation__one,
-  .explanation__two,
-  .explanation__three {
-    font-size: 0.8rem;
-    padding-bottom: 8rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1330px) {
   .container {
     width: 90%;
   }
