@@ -40,10 +40,9 @@ body {
   font-weight: bold;
 }
 
-.container {
+.container-fluid {
   margin: 0 auto;
   max-width: 1320px;
-  width: 80%;
 }
 
 /* NAV LIST */
@@ -349,10 +348,6 @@ body {
 /*MOBILE FIRST*/
 
 @media screen and (min-width: 320px) and (max-width: 1330px) {
-  .container {
-    width: 90%;
-  }
-
   .title {
     font-size: 3rem;
   }
