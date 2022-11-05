@@ -13,7 +13,7 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="Imagenes/ceramic.png" type="image/icon" />
+    <link rel="shortcut icon" href="imagenes/ceramic.png" type="image/icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -25,28 +25,64 @@
   </head>
   <body>
     <header>
-      <div class="container-fluid">
-        <a class="title" href="index.html">Bola que mola</a>
-        <nav>
-          <ul class="nav_list">
-            <li><a class="nav__link" href="index.html">Inicio</a></li>
-            <li class="nav__link">Productos</li>
-            <li>
-              <a class="nav__link" href="nosotros.html">Nosotros</a>
-            </li>
-            <li><a class="nav__link" href="faq.html">Faq</a></li>
-            <li><a class="nav__link" href="contacto.html">Contacto</a></li>
-            <div class="shopping_cart">
-              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
-          </ul>
+      <div class="container-sm">
+        <a class="title" href="index.html">BOLA QUE MOLA</a>
+        <nav class="nav nav-pills flex-column flex-sm-row">
+          <a
+            class="flex-sm-fill text-sm-center nav-link"
+            aria-current="page"
+            href="index.html"
+            >Inicio</a
+          >
+          <li class="nav-link" aria-current="page">
+            <a
+              class="flex-sm-fill text-sm-center nav-link nav-link dropdown-toggle text-white"
+              href="productos.html"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Productos</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="productos.html">Cuencos</a>
+              </li>
+              <li><a class="dropdown-item" href="productos.html">Deco</a></li>
+              <li><a class="dropdown-item" href="productos.html">Tazas</a></li>
+              <li><a class="dropdown-item" href="productos.html">Varios</a></li>
+            </ul>
+          </li>
+          <a
+            class="flex-sm-fill text-sm-center nav-link"
+            aria-current="page"
+            href="nosotros.html"
+            >Nosotros</a
+          >
+          <a
+            class="flex-sm-fill text-sm-center nav-link"
+            aria-current="page"
+            href="faq.html"
+            >Faq</a
+          >
+          <a
+            class="flex-sm-fill text-sm-center nav-link"
+            aria-current="page"
+            href="contacto.html"
+            >Contacto</a
+          >
+          <a
+            class="flex-sm-fill text-sm-center nav-link"
+            aria-current="page"
+            href="#"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
         </nav>
       </div>
     </header>
-    <div class="container-fluid">
+    <div class="container-sm">
       <div class="product__cuencos">
         <div class="img1" data-aos="fade-right">
-          <img src="Imagenes/objeto4.jpeg" alt="" />
+          <img src="imagenes/objeto4.jpeg" alt="" />
         </div>
         <div class="caja1" data-aos="fade-left">
           <p>
@@ -56,7 +92,7 @@
           <button class="button" type="submit">Comprar</button>
         </div>
         <div class="img2" data-aos="fade-left">
-          <img src="Imagenes/objeto6.webp" alt="" />
+          <img src="imagenes/objeto6.webp" alt="" />
         </div>
         <div class="caja2" data-aos="fade-right">
           <p>
@@ -66,7 +102,7 @@
           <button class="button" type="submit">Comprar</button>
         </div>
         <div class="img3" data-aos="fade-right">
-          <img src="Imagenes/objetos.jpg" alt="" />
+          <img src="imagenes/objetos.jpg" alt="" />
         </div>
         <div class="caja3" data-aos="fade-left">
           <p>
@@ -76,7 +112,7 @@
           <button class="button" type="submit">Comprar</button>
         </div>
         <div class="img4" data-aos="fade-left">
-          <img src="Imagenes/objetos2.jpg" alt="" />
+          <img src="imagenes/objetos2.jpg" alt="" />
         </div>
         <div class="caja4" data-aos="fade-right">
           <p>
@@ -86,7 +122,7 @@
           <button class="button" type="submit">Comprar</button>
         </div>
         <div class="img5" data-aos="fade-right">
-          <img src="Imagenes/objeto5.jpg" alt="" />
+          <img src="imagenes/objeto5.jpg" alt="" />
         </div>
         <div class="caja5" data-aos="fade-left">
           <p>
@@ -98,7 +134,7 @@
       </div>
     </div>
     <footer>
-      <div class="container-fluid">
+      <div class="container-sm">
         <div class="footer_page">
           <div class="footer__icons">
             <a href="#"><i class="fa-brands fa-instagram"></i></a>

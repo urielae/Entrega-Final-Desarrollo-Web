@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  color: #fff;
+  background-color: #e124ae;
+}
+
 /* BUTTONS CONFIGURATION */
 
 .button {
@@ -42,22 +47,19 @@ body {
 
 .container-fluid {
   margin: 0 auto;
-  max-width: 1320px;
+  width: 75%;
 }
 
 /* NAV LIST */
 
-.nav_list {
-  list-style: none;
-  display: flex;
+nav {
   margin: 0 0.6rem 0 0.6rem;
-  padding-block: 2rem;
-  flex-direction: row;
-  justify-content: flex-end;
+  padding-block: 3rem;
   font-size: 1.1rem;
+  padding-left: 0;
 }
 
-.nav__link {
+.nav-link {
   display: inline;
   text-decoration: none;
   color: #ffff;
@@ -65,8 +67,7 @@ body {
   transition-duration: 0.5s;
 }
 
-.nav__link:hover {
-  opacity: 0.5;
+.nav-link:hover {
   color: #e124ae;
 }
 
@@ -76,8 +77,13 @@ body {
   transition-duration: 0.5s;
 }
 .shopping_cart a i:hover {
-  opacity: 0.5;
   color: #e124ae;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-color: #e124ae;
+  --bs-dropdown-link-hover-color: #fff;
+  --bs-dropdown-link-hover-bg: #e124ae;
 }
 
 /* MAIN PAGE */
@@ -132,7 +138,6 @@ body {
   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
     rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
     rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-  transform: scale(1.1);
 }
 
 .photo__one,
@@ -168,7 +173,6 @@ body {
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
     rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
     rgba(240, 46, 170, 0.05) 25px 25px;
-  transform: scale(1.1);
 }
 
 /* ABOUT US */
@@ -325,7 +329,6 @@ body {
 }
 
 .footer_page a i:hover {
-  opacity: 0.5;
   color: #e124ae;
 }
 
@@ -341,15 +344,18 @@ body {
 }
 
 .footer__copyright a:hover {
-  opacity: 0.5;
   color: #e124ae;
 }
 
 /*MOBILE FIRST*/
 
-@media screen and (min-width: 320px) and (max-width: 1330px) {
+@media screen and (max-width: 1440px) and (min-width: 320px) {
   .title {
     font-size: 3rem;
+  }
+
+  .container-sm {
+    overflow: hidden;
   }
 
   .nav_list {
@@ -434,7 +440,7 @@ body {
   }
 
   .product__cuencos img {
-    width: 30vh;
+    width: 20vh;
     margin-bottom: 0.2rem;
   }
 
@@ -447,7 +453,7 @@ body {
   }
 
   .about__us--pic {
-    width: 30vh;
+    width: 20vh;
   }
 
   .about__us--first__section,
@@ -467,7 +473,7 @@ body {
   .faq__section__one,
   .faq__section__two,
   .faq__section__three {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .explanation__one,
