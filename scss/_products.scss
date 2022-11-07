@@ -1,0 +1,65 @@
+.product__cuencos {
+  padding-block: 3rem;
+  margin-block: 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas:
+    "img1 caja1"
+    "caja2 img2"
+    "img3 caja3"
+    "caja4 img4"
+    "img5 caja5";
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 40vh;
+    margin-bottom: 15rem;
+  }
+
+  .button {
+    margin-top: 2rem;
+  }
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.caja1 {
+  grid-area: caja1;
+}
+
+.caja2 {
+  grid-area: caja2;
+}
+
+.caja3 {
+  grid-area: caja3;
+}
+
+.caja4 {
+  grid-area: caja4;
+}
+
+.caja5 {
+  grid-area: caja5;
+}

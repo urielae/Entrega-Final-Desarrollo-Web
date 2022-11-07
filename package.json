@@ -1,0 +1,20 @@
+{
+  "name": "preentrega3-espeleta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urielae/PreEntrega3-Espeleta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urielae/PreEntrega3-Espeleta/issues"
+  },
+  "homepage": "https://github.com/urielae/PreEntrega3-Espeleta#readme"
+}

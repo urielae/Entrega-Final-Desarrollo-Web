@@ -1,0 +1,134 @@
+@media screen and (max-width: 1440px) and (min-width: 320px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .container-sm {
+    overflow: hidden;
+  }
+
+  .nav_list {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .nav__link {
+    margin: 0.5rem;
+  }
+
+  .shopping_cart a i {
+    margin-left: 0.5rem;
+  }
+
+  .main_section {
+    font-size: 0.8rem;
+    padding-block: 3rem;
+    padding-inline: 0.5rem;
+  }
+
+  .first__section,
+  .third__section {
+    flex-direction: column;
+  }
+
+  .second__section {
+    flex-direction: column-reverse;
+  }
+
+  .photo__one,
+  .photo__two,
+  .photo__three {
+    width: 25vh;
+    padding-bottom: 1rem;
+  }
+
+  .phrase__one,
+  .phrase__two,
+  .phrase__three {
+    padding: 0.5rem;
+  }
+
+  .footer__copyright {
+    font-size: 1rem;
+  }
+
+  .footer__icons {
+    margin-bottom: 1rem;
+
+    a .fa-instagram {
+      color: $secondary-color;
+    }
+
+    a .fa-whatsapp {
+      color: $wu-color;
+    }
+  }
+
+  .footer_page a i {
+    font-size: 1.3rem;
+  }
+
+  .product__cuencos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas:
+      "img1"
+      "caja1"
+      "img2"
+      "caja2"
+      "img3"
+      "caja3"
+      "img4"
+      "caja4"
+      "img5"
+      "caja5";
+    gap: 1rem;
+    justify-content: center;
+    font-size: 0.8rem;
+
+    img {
+      width: 20vh;
+      margin-bottom: 0.2rem;
+    }
+
+    .button {
+      margin-bottom: 5rem;
+    }
+  }
+
+  .about_us {
+    font-size: 0.8rem;
+  }
+
+  .about__us--pic {
+    width: 20vh;
+  }
+
+  .about__us--first__section,
+  .about__us--second__section,
+  .about__us--third__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__us--phrase {
+    margin-top: 1rem;
+    padding-left: 0;
+  }
+
+  .faq__section__one,
+  .faq__section__two,
+  .faq__section__three {
+    font-size: 1.3rem;
+  }
+
+  .explanation__one,
+  .explanation__two,
+  .explanation__three {
+    font-size: 0.8rem;
+    padding-bottom: 8rem;
+  }
+}

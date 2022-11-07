@@ -1,0 +1,37 @@
+nav {
+  margin: 0 0.6rem 0 0.6rem;
+  padding-block: 3rem;
+  font-size: 1.1rem;
+  padding-left: 0;
+}
+
+.nav-link {
+  display: inline;
+  text-decoration: none;
+  color: $primary-color;
+  margin: 0 0.8rem 0 0.8rem;
+  transition-duration: 0.5s;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+.shopping_cart a i {
+  color: $primary-color;
+  margin-left: 5rem;
+  transition-duration: 0.5s;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+.dropdown-menu li {
+  color: $secondary-color;
+
+  &:hover {
+    color: $primary-color;
+    background-color: $secondary-color;
+  }
+}

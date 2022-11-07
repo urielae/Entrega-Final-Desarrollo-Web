@@ -1,0 +1,81 @@
+body {
+  background-color: $bg-color;
+  text-align: center;
+  color: $primary-color;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.title {
+  font-size: 6rem;
+  color: $secondary-color;
+  text-decoration: none;
+  transition-duration: 1.2s;
+  animation: slide-in-blurred-top 2s cubic-bezier(0.23, 1, 0.32, 1) both;
+
+  &:hover {
+    transition-duration: 1.2s;
+    color: $primary-color;
+  }
+}
+
+.main_section {
+  font-size: 1.2rem;
+  padding-block: 3rem;
+  padding-inline: 1.2rem;
+}
+
+.first__section,
+.third__section {
+  background-color: $card-color;
+  padding-block: 1.6rem;
+  margin-block: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+
+  &:hover {
+    box-shadow: $shadow-color-one, $shadow-color-two, $shadow-color-four,
+      $shadow-color-three, $shadow-color-five;
+  }
+}
+
+.photo__one,
+.photo__two,
+.photo__three {
+  width: 75vh;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  object-fit: contain;
+}
+
+.phrase__one,
+.phrase__three {
+  padding-right: 1.5rem;
+}
+
+.phrase__two {
+  padding-left: 1.5rem;
+}
+
+.second__section {
+  background-color: $primary-color;
+  padding-block: 1.6rem;
+  color: $tertiary-color;
+  margin-block: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+
+  &:hover {
+    box-shadow: $shadow-color-one, $shadow-color-two, $shadow-color-four,
+      $shadow-color-three, $shadow-color-five;
+  }
+}
