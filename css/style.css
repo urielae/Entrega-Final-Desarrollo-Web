@@ -106,7 +106,7 @@ body {
 .third__section {
   background-color: rgb(24, 23, 23);
   padding-block: 1.6rem;
-  margin-block: 6rem;
+  margin-block: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +139,7 @@ body {
   background-color: #ffffff;
   padding-block: 1.6rem;
   color: black;
-  margin-block: 6rem;
+  margin-block: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,7 +151,7 @@ body {
 
 .product__cuencos {
   padding-block: 3rem;
-  margin-block: 15rem;
+  margin-block: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(5, 1fr);
@@ -162,7 +162,7 @@ body {
 }
 .product__cuencos img {
   width: 40vh;
-  margin-bottom: 15rem;
+  margin-bottom: 4rem;
 }
 .product__cuencos .button {
   margin-top: 2rem;
@@ -211,7 +211,7 @@ body {
 .about_us {
   padding-block: 3rem;
   padding-inline: 1.2rem;
-  margin-bottom: 15rem;
+  margin-bottom: 4rem;
   font-size: 1.2rem;
 }
 
@@ -219,7 +219,7 @@ body {
   display: flex;
   flex-direction: row;
   padding-block: 1.6rem;
-  margin-block: 6rem;
+  margin-block: 4rem;
   align-items: center;
 }
 
@@ -227,14 +227,14 @@ body {
   display: flex;
   flex-direction: row-reverse;
   padding-block: 1.6rem;
-  margin-block: 6rem;
+  margin-block: 4rem;
 }
 
 .about__us--third__section {
   display: flex;
   flex-direction: row;
   padding-block: 1.6rem;
-  margin-block: 6rem;
+  margin-block: 4rem;
 }
 
 .about__us--phrase {
@@ -246,7 +246,7 @@ body {
 }
 
 .faq_section {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   padding-block: 3rem;
 }
 
@@ -262,7 +262,7 @@ body {
 .explanation__two,
 .explanation__three {
   font-size: 1.2rem;
-  padding-bottom: 8rem;
+  padding-bottom: 3rem;
 }
 
 .contact {
@@ -273,7 +273,7 @@ body {
 }
 
 .contact__form {
-  margin-bottom: 15rem;
+  margin-bottom: 4rem;
 }
 
 .footer_page a {
